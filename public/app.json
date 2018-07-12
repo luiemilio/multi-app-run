@@ -1,0 +1,23 @@
+{
+	"startup_app": {
+		"name": "OpenfinPOC",
+		"url": "http://localhost:5555/index.html",
+		"uuid": "OpenfinPOC",
+		"applicationIcon": "http://localhost:5555/favicon.ico",
+		"autoShow": true,
+		"defaultHeight": 300,
+		"defaultWidth": 400,
+		"defaultCentered": true,
+		"saveWindowState": false
+	},
+	"runtime": {
+		"arguments": "--remote-debugging-port=9090",
+		"version": "7.53.23.16"
+	},
+	"shortcut": {
+		"company": "OpenFin",
+		"description": "Openfin POC",
+		"icon": "http://localhost:5555/favicon.ico",
+		"name": "Openfin POC"
+	}
+}
