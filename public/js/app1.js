@@ -1,10 +1,8 @@
 //event listeners.
 document.addEventListener('DOMContentLoaded', () => {
+	// check if OpenFin API is available
 	if (typeof fin != 'undefined') {
 		fin.desktop.main(onMain);
-	} else {
-		ofVersion.innerText =
-			'OpenFin is not available - you are probably running in a browser.';
 	}
 });
 
